@@ -9,6 +9,6 @@ Issues:
 - [x] Greeting
 - [x] Sum
 - [x] Fizz-Buzz
-- [ ] Primes
+- [x] Primes
 - [ ] Fibonacci Sequence
 - [ ] Palindromic Product
