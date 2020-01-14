@@ -8,7 +8,7 @@ Issues:
 - [x] Hello, World!
 - [x] Greeting
 - [x] Sum
-- [ ] Fizz-Buzz
+- [x] Fizz-Buzz
 - [ ] Primes
 - [ ] Fibonacci Sequence
 - [ ] Palindromic Product
