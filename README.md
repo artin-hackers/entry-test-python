@@ -7,7 +7,7 @@ Issues:
 
 - [x] Hello, World!
 - [x] Greeting
-- [ ] Sum
+- [x] Sum
 - [ ] Fizz-Buzz
 - [ ] Primes
 - [ ] Fibonacci Sequence
