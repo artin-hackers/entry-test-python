@@ -1,12 +1,30 @@
-print("Hello, World!")
+def load_positive_number(minimum=1):
+    while True:
+        text = input()
+        try:
+            number = int(text)
+        except ValueError:
+            print("Error: Value must be a number.")
+        else:
+            if number >= minimum:
+                return number
+            else:
+                print("Error: Value must be at least %d." % minimum)
+        print("Try again: ", end="")
 
-# Pocatek Fibonacciho rady: 1, 1, 2, 3, 5, 8, 13, ...
 
-lastlast = 1  # Cislo na 1. pozici
-last = 1  # Cislo na 2. pozici
+def main():
+    print("Please enter from-index: ", end="")
+    from_index = load_positive_number()
+    print("Please enter to-index: ", end="")
+    to_index = load_positive_number(from_index)
 
-for i in range(3, 25):  # Vypocet zahajime na 3. pozici, protoze 1. a 2. jiz zname
-    new = lastlast + last  # Nove cislo se vypocte jako soucet dvou predchozich
-    print(new)  # Vytiskneme nove cislo
-    lastlast = last  # Ulozime posledni cislo na predposledni pozici
-    last = new  # Ulozime nove vypoctene cislo na posledni pozici
+    fibonacci = [0, 1]
+    for i in range(3, to_index+1):
+        current = fibonacci[-1] + fibonacci[-2]
+        fibonacci.append(current)
+    print(fibonacci[from_index-1:to_index])
+
+
+if __name__ == "__main__":
+    main()

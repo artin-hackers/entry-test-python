@@ -10,5 +10,5 @@ Issues:
 - [x] Sum
 - [x] Fizz-Buzz
 - [x] Primes
-- [ ] Fibonacci Sequence
+- [x] Fibonacci Sequence
 - [ ] Palindromic Product
