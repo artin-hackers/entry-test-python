@@ -1,6 +1,6 @@
 # Entry Test - Python
 
-Python 3 solutions to Hackers entry test issues
+Python 3 solutions to Artin Hackers entry test issues
 ([https://www.artin.cz/hackers/](https://www.artin.cz/hackers/)).
 
 Issues:
