@@ -1,9 +1,16 @@
-print("Gimme numba:")
+print("Yo Cholo! Gimme numba: ", end="")
 number = input()
-if int(number) > 0:
-    my_sum = 0
-    for i in range(1, int(number)+1):
-        my_sum += i;
-    print(my_sum)
-else:
-    print("We do not like negatives or zeroes")
+while True:
+    try:
+        if int(number) > 0:
+            the_sum = 0
+            for i in range(1, int(number)+1):
+                the_sum += i
+            print("Da sum is %d, mon." % the_sum)
+            break
+        else:
+            print("No negatives or zeroes. Try again: ", end="")
+            number = input()
+    except ValueError:
+        print("Wut is dat?! Again: ", end="")
+        number = input()
