@@ -1,4 +1,4 @@
-print("Yo Cholo! Gimme numba: ", end="")
+print("Yo, cholo! Gimme numba: ", end="")
 while True:
     number = input()
     try:
