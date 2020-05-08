@@ -1,6 +1,6 @@
-print("Yo Cholo! Gimme numba: ", end="")
-number = input()
+print("Yo, cholo! Gimme numba: ", end="")
 while True:
+    number = input()
     try:
         if int(number) > 0:
             the_sum = 0
@@ -10,7 +10,5 @@ while True:
             break
         else:
             print("No negatives or zeroes. Try again: ", end="")
-            number = input()
     except ValueError:
         print("Wut is dat?! Again: ", end="")
-        number = input()
